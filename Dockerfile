@@ -1,2 +1,2 @@
-FROM hshar/webapp
+FROM webubuntu
 ADD ./devopsIQ /var/www/html/devopsIQ
