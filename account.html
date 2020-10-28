@@ -1,0 +1,130 @@
+<DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Create an Account</title>
+		<link rel = "stylesheet" type = "text/css"
+			href = "site.css">
+	</head>
+	
+	<body>
+	
+	<h2> Create an Account</h2>
+		<form action="mailto:n01390588@Ospreys.unf.edu" method="post" enctype="text/plain">
+			First Name:<br>
+			<input type="text" name="First Name" required><br>
+			Last Name:<br>
+			<input type="text" name="Last Name" required><br>
+			E-mail:<br>
+			<input type="text" name="mail" required><br>
+			Password:<br>
+			<input type="password" name="password" required><br>
+			Confirm Password:<br>
+			<input type="password" name="Confirm password" required><br>
+			BirthDate:<br>
+			<input type="date" name = "Birthdate"
+				min = "1970-01-01" 
+				value = "2015-10-21"
+				max = "2020-12-31"
+			/>
+		
+			<p>
+				<label><a href="https://www.unf.edu/catalog/link/CCEC-BSCCISCIS3/"target="_blank">Computer Science</a>
+					<input class="inp" name = "degree" type = "radio"
+						value ="Computer Science" >
+				</label>
+				<label><a href="https://www.unf.edu/catalog/link/CCEC-BSCCISCIS1/"target="_blank">Information Science</a>
+					<input name = "degree" type = "radio"
+						value ="Information Science" >
+				</label>
+				<label><a href ="https://www.unf.edu/catalog/link/CCEC-BSCCISCIS2/"target="_blank">Information Systems</a>
+					<input name = "degree" type = "radio"
+						value ="Information Systems" >
+				</label>
+				<label><a href = "https://www.unf.edu/catalog/link/CCEC-BSCCISCIS7/"target="_blank">Information Technology</a>
+					<input name = "degree" type = "radio"
+						value ="Information Technology" >
+				</label>
+			</p>
+			
+			<p>
+				<table>
+					<tbody class="left">
+				
+						<tr>
+							<td>
+								<label><input name="language" type= "checkbox" value+"">
+									<a href="https://en.wikipedia.org/wiki/C_(programming_language)"target="_blank"> C </a>
+								</label> 
+							</td>
+							
+							<td>
+								<label><input name="language" type= "checkbox" value+"">
+									<a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"target="_blank">  C# </a>
+								</label>
+							</td>	
+						</tr>
+						<tr>
+							<td>
+								<label><input name="language" type= "checkbox" value+"">
+									<a href="https://en.wikipedia.org/wiki/Java_(programming_language)"target="_blank">  Java </a>
+								</label>
+								</td>
+							<td>
+								<label><input name="language" type= "checkbox" value+"">
+								<a href="https://en.wikipedia.org/wiki/JavaScript"target="_blank">  JavaScript </a>
+								</label>
+							</td>	
+						</tr>
+						<tr>
+							<td>
+								<label><input name="language" type= "checkbox" value+"">
+									<a href="https://en.wikipedia.org/wiki/PHP"target="_blank">  PHP </a>
+								</label>
+								</td>
+							<td>
+								<label><input name="language" type= "checkbox" value+"">
+									<a href="https://en.wikipedia.org/wiki/Python_(programming_language)"target="_blank">  Python </a>
+								</label>
+							</td>	
+						</tr>
+						<tr>
+							<td>
+								<label><input name="language" type= "checkbox" value+"">
+									<a href="https://en.wikipedia.org/wiki/Visual_Basic"target="_blank">  Visual Basic </a>
+								</label>
+								</td>
+							<td>
+								<label><input name="language" type= "checkbox" value+"">
+									<a href="">  Other </a>
+								</label>
+							</td>	
+						</tr>
+
+					
+				
+				
+					</tbody>
+			
+				</table>
+				
+				
+				
+		
+			</p>
+		
+
+		
+			<button onclick="performStatistics()"> Submit</button>
+			<input type="reset" value="Reset">
+			
+			
+		</form>
+
+		<a href="http://192.168.100.86/~nb420336/">E-Portfolio</a>
+		<a href="index.html">Personal</a>
+	
+	</body>
+	
+</html>
